@@ -1,0 +1,26 @@
+
+<!doctype html>
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en"> 
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!--container start-->
+  <div class="container">
+    {% include "partials/_header.njk" %}
+    <main>
+  {% set snippet %}{% include "../../markdown/banner.md" %}{% endset %}
+  {{ snippet | markdown | safe }}
+      {{ content | safe }}
+    </main>
+    {% include "partials/_footer.njk" %}
+  </div>
+  <!--container end-->
+</body>
+</html>
