@@ -113,6 +113,36 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 89.6%; 
   margin: 0 auto;
+}
+
+/* header styling start */
+
+.header-top {
+  padding: 0.3% 7%;
+  background-color: #ECEAE6;
+  text-align: right;
+}
+
+.header-bottom {
+  padding: 0.3% 7%;
+}
+
+
+/* main styling starts */
+
+/* home serve contents styling */
+
+.home-serve-contents {
+  padding: 0.3% 7%;
+}
+
+h2 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.the-leader-in-home p {
+  margin-top: 23px;
 }
