@@ -394,6 +394,7 @@ h2 {
 
 .get-instant-quote-lower {
   padding: 11px 0;
+  background-color: #ECEAE6;
   color: rgb(0,0,0,0.8);
   font-size: 13px;
 }
@@ -410,6 +411,7 @@ h2 {
 
 .about-us {
   padding: 3px 0 24px;
+  background-color: #ECEAE6;
 }
 
 .about-us .wrapper {
