@@ -348,6 +348,10 @@ h2 {
   border: none;
 }
 
+.zip-instant-quote:focus {
+  padding: 7px 20px;
+}
+
 .instant-form {
   display: flex;
   margin-left: 18px;
@@ -678,5 +682,9 @@ footer {
 
     .zip-repair-plans {
       padding: 18px 3px;
+    }
+
+    .get-instant-quote-upper {
+      flex-direction: column;
     }
   }
