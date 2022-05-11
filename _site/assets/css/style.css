@@ -126,6 +126,10 @@ li {
   text-align: right;
 }
 
+.header-top .wrapper {
+  width: 100%;
+}
+
 .tel-no {
   color: #4CA7CF;
   transition: all ease-in-out 0.3s;
@@ -307,6 +311,10 @@ h2 {
   text-align: center;
 }
 
+.get-instant-quote .wrapper {
+  width: 100%;
+}
+
 .get-instant-quote-upper {
   padding: 23px 0;
   margin-top: 110px;
@@ -344,11 +352,13 @@ h2 {
 .repairerror,.instanterror {
   display: block;
   color: #ff0000;
+  font-size: 12px;
   text-align: center;
 }
 
 .instanterror {
   display: block;
+  white-space: nowrap;
 }
 
 .zip-instant-quote::placeholder {
@@ -641,4 +651,24 @@ footer {
     font-size: 10px;
   }
 
+  .see-repair-plans h2 {
+    font-size: 18px;
+  }
+
+  .view-plans {
+    font-size: 7px;
+  }
+
+  }
+
+  @media screen and (max-width: 425px) {
+
+    .banner h2 {
+      font-size: 14px;
+    }
+
+    .view-plans {
+      padding: 15px 10px;
+      font-size: 5px;
+    }
   }

@@ -13,7 +13,7 @@ zipform.addEventListener("submit",(e)=>{
 let zip_repair_plans = document.querySelector(".zip-repair-plans").value;
 console.log(zip_repair_plans);
 if(!(zip_repair_plans.match(validzip))) {
-    repairerror.innerText = "zip code is not valid";
+    repairerror.innerText = "Please input a 5 digit ZIP Code";
 }
 })
 instantform.addEventListener("submit",(e)=>{
@@ -21,6 +21,6 @@ instantform.addEventListener("submit",(e)=>{
     instanterror.innerText = "";
 let zip_instant_quote = document.querySelector(".zip-instant-quote").value;
 if(!(zip_instant_quote.match(validzip))) {
-    instanterror.innerText = "zip code is not valid";
+    instanterror.innerText = "Please input a 5 digit ZIP Code";
 }
 })

@@ -92,20 +92,20 @@ appliances has increased as well. It was not long ago
 :::::::
 
 ::::::: get-instant-quote
-
-:::::: get-instant-quote-upper
+:::::: wrapper
+::::: get-instant-quote-upper
 
 #### Get An Instant Online Quote For Your Home
 
  {% include "partials/_getinstantquote.njk" %}
-::::::
+:::::
 
-:::::: get-instant-quote-lower
+::::: get-instant-quote-lower
 
 HomeServe is an independent company separate from your local utility or community
 
+:::::
 ::::::
-
 :::::::
 
 ::::::: about-us
