@@ -155,6 +155,10 @@ li {
   position: relative;
 }
 
+.banner .wrapper {
+  width: 100%;
+}
+
 .banner::before {
   content: " ";
   width: 100%;
