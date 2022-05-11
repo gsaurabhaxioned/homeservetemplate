@@ -18,7 +18,7 @@ are dedicated to providing our customers with the finest electrical contracting 
 ::::: homeserve-features
 :::: feature
 
-### Greater Piece Of Mind
+### [Greater Piece Of Mind](#FIXME)
 
 with a plan from HomeServe
 
@@ -26,7 +26,7 @@ with a plan from HomeServe
 ::::
 :::: feature
 
-### Fewer Home Repair Hassles
+### [Fewer Home Repair Hassles](#FIXME)
 
 with a plan from HomeServe
 
@@ -34,7 +34,7 @@ with a plan from HomeServe
 ::::
 :::: feature
 
-### Stressless over Repair Costs
+### [Stressless over Repair Costs](#FIXME)
 
 with a plan from HomeServe
 
