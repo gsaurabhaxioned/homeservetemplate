@@ -362,6 +362,11 @@ h2 {
   color: #ff0000;
   font-size: 12px;
   text-align: center;
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
 }
 
 .instanterror {
