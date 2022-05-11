@@ -322,6 +322,10 @@ h2 {
   font-size: 22px;
 }
 
+.zip-instant-quote-block {
+  width: 68%;
+}
+
 .instant-quote-block {
   width: 56%;
   padding: 6px 12px;
