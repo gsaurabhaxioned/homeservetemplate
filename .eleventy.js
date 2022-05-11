@@ -4,16 +4,11 @@ const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
 
 module.exports = function (config) {
-
-    // Watch our compiled assets for changes
-    config.addWatchTarget('./compiled-assets/main.js');
-    // Copy /compiled-assets to /assets
-    config.addPassthroughCopy({ 'compiled-assets': 'assets/js' });
+    config.addPassthroughCopy("./main.js");
+    config.addWatchTarget('./main.js');
     config.addPassthroughCopy("./assets/css/");
     config.addWatchTarget("./assets/css/");
-
     config.addPassthroughCopy("_redirects");
-    // config.addPassthroughCopy("assets");
 
 
     let options = {
@@ -34,6 +29,8 @@ module.exports = function (config) {
     .use(markdownItContainer, "red-text")
     .use(markdownItContainer, "homeserve-services")
     .use(markdownItContainer, "service")
+    .use(markdownItContainer, "service-icon")
+    .use(markdownItContainer, "service-content")
     .use(markdownItContainer, "get-instant-quote")
     .use(markdownItContainer, "get-instant-quote-upper")
     .use(markdownItContainer, "get-instant-quote-lower")
