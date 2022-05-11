@@ -161,7 +161,7 @@ li {
 
 
 .see-repair-plans {
-  padding: 20px 72px 62px 90px;
+  padding: 20px 73px 62px 76px;
   position: absolute;
   border-radius: 8px;
   top: 53%;
@@ -171,13 +171,13 @@ li {
 }
 
 .banner h2 {
-  font-size: 34px;
+  font-size: 35px;
   white-space: nowrap;
 }
 
 .zipform {
   width: 75%;
-  margin: 22px auto;
+  margin: 4px auto 22px;
   display: flex;
   justify-content: space-between;
 }
