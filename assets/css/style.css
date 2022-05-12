@@ -796,3 +796,12 @@ footer {
       flex-direction: column;
     }
   }
+
+  /* media query for 1440px min width */
+
+@media screen and (min-width: 1440px) {
+
+  .homeserve-features {
+    justify-content: space-between;
+  }
+}
