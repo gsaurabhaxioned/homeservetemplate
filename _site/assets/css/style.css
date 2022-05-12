@@ -296,13 +296,13 @@ h2 {
   font-size: 24px;
 }
 
-.service-icon {
+.service .service-icon {
   text-indent: -9999px;
 }
 
-.service-icon::before {
+.service .service-icon::before {
   content: "\f095";
-  padding: 26px 35px;
+  padding: 30px 33px;
   margin-right: 20px;
   border-radius: 100%;
   font-family: "fontAwesome";
@@ -310,6 +310,10 @@ h2 {
   color: #fff;
   float: right;
   text-indent: 0;
+}
+
+.service:nth-child(2) .service-icon::before {
+  content: "\f1b9";
 }
 
 .service p {
@@ -539,6 +543,18 @@ footer {
   -ms-transition: all ease-in-out 0.3s;
   -o-transition: all ease-in-out 0.3s;
 }
+
+/* .footer-icons li:nth-child(2) a::before {
+  content: "\f099";
+}
+
+.footer-icons li:nth-child(2) a::before {
+  content: "";
+}
+
+.footer-icons li:nth-child(2) a::before {
+  content: "";
+} */
 
 .footer-icons li a:hover::before {
   background-color: #0000ff;
