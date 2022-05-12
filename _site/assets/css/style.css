@@ -175,7 +175,7 @@ li {
   top: 51%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgb(255,255,255,0.8);
+  background: rgb(255,255,255,0.6);
 }
 
 .banner h2 {
@@ -191,7 +191,7 @@ li {
 }
 
 .zip-repair-plans {
-  padding: 18px 41px 18px 22px;
+  padding: 18px 48px 18px 22px;
   border: 1px solid #fff;
 }
 
@@ -200,7 +200,7 @@ li {
 }
 
 .zip-repair-plans::placeholder {
-  color: rgb(0,0,0,0.4);
+  color: rgb(0,0,0,0.3);
   font-size: 17px;
 }
 
@@ -250,15 +250,17 @@ h2 {
   display: flex;
 }
 
-
-.feature {
-  margin-left: 5.9%;
-}
-
 .feature:first-child {
   margin-left: 0;
 }
 
+.feature:nth-child(2) {
+  margin-left: 5.9%;
+}
+
+.feature:last-child {
+  margin-left: 5.3%;
+}
 
 .feature h3 a {
   color: #ff0000;
@@ -669,9 +671,9 @@ footer {
     font-size: 25px;
   }
 
-  /* .view-plans {
-    padding: 15px 27px;
-  } */
+  .feature:nth-child(2),.feature:last-child {
+    margin-left: 0;
+  }
 
   .homeserve-features {
     flex-direction: column;
