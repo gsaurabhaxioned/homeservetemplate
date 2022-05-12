@@ -769,6 +769,16 @@ footer {
     padding: 10px 3px;
   }
 
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links li a {
+    border-right: none;
+  }
+
   }
 
   @media screen and (max-width: 425px) {
