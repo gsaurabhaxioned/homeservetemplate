@@ -184,7 +184,7 @@ li {
 }
 
 .zipform {
-  width: 86%;
+  width: 82%;
   margin: 4px auto 22px;
   display: flex;
   justify-content: space-between;
@@ -192,7 +192,7 @@ li {
 
 .zip-repair-plans {
   padding: 18px 41px 18px 22px;
-  border: none;
+  border: 1px solid #fff;
 }
 
 .zip-repair-plans:focus::placeholder {
@@ -369,7 +369,7 @@ h2 {
 
 .zip-instant-quote {
   padding: 7px;
-  border: none;
+  border: 1px solid #fff;
 }
 
 .zip-instant-quote:focus::placeholder {
@@ -409,7 +409,7 @@ h2 {
 
 .go-button {
   padding: 4px 6px;
-  border: navajowhite;
+  border: 1px solid #BF1027;
   background-color: #BF1027;
   color: #fff;
   font-size: 18px;
@@ -602,7 +602,7 @@ footer {
 /* media query for 1280px */
 
 @media screen and (max-width: 1280px) {
-  .feature h3 {
+  .feature h3 a {
     font-size: 20px;
   }
 }
@@ -610,7 +610,7 @@ footer {
 /* media query for 995px */
 
 @media screen and (max-width: 995px) {
-  .feature h3 {
+  .feature h3 a {
     font-size: 15px;
   }
 
@@ -743,7 +743,7 @@ footer {
 @media screen and (max-width: 540px) {
 
   .zip-instant-quote {
-    padding: 6px;
+    padding: 7px;
   }
 
   .get-instant-quote-lower {
@@ -755,7 +755,15 @@ footer {
   }
 
   .view-plans {
-    font-size: 7px;
+    font-size: 14px;
+  }
+
+  .service h4 {
+    font-size: 16px;
+  }
+
+  .zip-repair-plans {
+    padding: 10px 3px;
   }
 
   }
@@ -769,10 +777,6 @@ footer {
     .view-plans {
       padding: 15px 10px;
       font-size: 5px;
-    }
-
-    .zip-repair-plans {
-      padding: 18px 3px;
     }
 
     .get-instant-quote-upper {

@@ -8,7 +8,6 @@ module.exports = function (config) {
     config.addWatchTarget('./main.js');
     config.addPassthroughCopy("./assets/css/");
     config.addWatchTarget("./assets/css/");
-    config.addPassthroughCopy("_redirects");
 
 
     let options = {
