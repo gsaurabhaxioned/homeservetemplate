@@ -184,14 +184,14 @@ li {
 }
 
 .zipform {
-  width: 93%;
+  width: 86%;
   margin: 4px auto 22px;
   display: flex;
   justify-content: space-between;
 }
 
 .zip-repair-plans {
-  padding: 18px 16px;
+  padding: 18px 41px 18px 22px;
   border: none;
 }
 
@@ -433,6 +433,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
+
 .about-us-left ul li a  {
   color: #4AA7CF;
   font-size: 13px;
