@@ -8,6 +8,8 @@ module.exports = function (config) {
     config.addWatchTarget('./main.js');
     config.addPassthroughCopy("./assets/css/");
     config.addWatchTarget("./assets/css/");
+    config.addPassthroughCopy("./assets/font-awesome-4.7.0/");
+    config.addWatchTarget("./assets/font-awesome-4.7.0/");
 
 
     let options = {
