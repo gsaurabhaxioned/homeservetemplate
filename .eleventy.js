@@ -14,14 +14,10 @@ module.exports = function (config) {
         return `<p>As more and more homes have modernized over the last 30 years, the demand for bigger and better appliances has increased as well. It was not long ago</p>`;
       })
 
-    // config.addPairedShortcode("pairinfo", function(pname,pcity) {
-    //     return `Hello My Name is ${pname} and I live in ${pcity}` ;
-    //   })
+    config.addShortcode('image', function() {
+        return `<img src="http://placehold.jp/329x194.png" alt="Homeserve" class="homeserve-img">`;
+      })
 
-
-    //   config.addTransform("showpath",function(content,outputPath){
-    //       return outputPath
-    //   })
     let options = {
         html: true,
         breaks: true,

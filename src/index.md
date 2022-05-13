@@ -22,7 +22,7 @@ are dedicated to providing our customers with the finest electrical contracting 
 
 with a plan from HomeServe
 
-![feature](http://placehold.jp/329x194.png)
+{% image %}
 ::::
 :::: feature
 
@@ -30,7 +30,7 @@ with a plan from HomeServe
 
 with a plan from HomeServe
 
-![feature](http://placehold.jp/329x194.png)
+{% image %}
 ::::
 :::: feature
 
@@ -38,7 +38,7 @@ with a plan from HomeServe
 
 with a plan from HomeServe
 
-![feature](http://placehold.jp/329x194.png)
+{% image %}
 ::::
 :::::
 
