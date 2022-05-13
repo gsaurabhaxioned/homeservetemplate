@@ -10,8 +10,18 @@ module.exports = function (config) {
     config.addWatchTarget("./assets/css/");
     config.addPassthroughCopy("./assets/font-awesome-4.7.0/");
     config.addWatchTarget("./assets/font-awesome-4.7.0/");
+    config.addShortcode('serviceinfo', function() {
+        return `<p>As more and more homes have modernized over the last 30 years, the demand for bigger and better appliances has increased as well. It was not long ago</p>`;
+      })
+
+    // config.addPairedShortcode("pairinfo", function(pname,pcity) {
+    //     return `Hello My Name is ${pname} and I live in ${pcity}` ;
+    //   })
 
 
+    //   config.addTransform("showpath",function(content,outputPath){
+    //       return outputPath
+    //   })
     let options = {
         html: true,
         breaks: true,

@@ -51,9 +51,8 @@ with a plan from HomeServe
 
 #### Call HomeServe 24/7
 
-As more and more homes have modernized over the
-last 30 years, the demand for bigger and better
-appliances has increased as well. It was not long ago
+{% serviceinfo %}
+
 :::
 ::::
 
@@ -65,9 +64,8 @@ appliances has increased as well. It was not long ago
 
 #### HomeServe Will Send a Tecnician
 
-As more and more homes have modernized over the
-last 30 years, the demand for bigger and better
-appliances has increased as well. It was not long ago
+{% serviceinfo %}
+
 :::
 ::::
 
@@ -79,11 +77,11 @@ appliances has increased as well. It was not long ago
 
 #### You Get "Thumps Up Service"
 
-As more and more homes have modernized over the
-last 30 years, the demand for bigger and better
-appliances has increased as well. It was not long ago
+{% serviceinfo %}
+
 :::
 ::::
+
 
 :::::
 
@@ -100,4 +98,3 @@ appliances has increased as well. It was not long ago
 
 ::::::
 :::::::
-
