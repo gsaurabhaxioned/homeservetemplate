@@ -1,18 +1,23 @@
 ---
 layout: layouts/base-layout.njk
+imgsrc: "http://placehold.jp/329x194.png"
+imgalt: "Image"
+eleventyNavigation:
+  key: homepage
 ---
 
 ::::::: homeserve-contents
 
 :::::: wrapper
+
 ::::: the-leader-in-home
 
 ## HomeServe, the leader in home repair solutions has teamed up with Mike Rowe,Americas leading Advocate for vocational training.We think its perfect fit
 
-Our team of over 65 employees includes knowledgeable and courteous electricians and technicians that are dedicated to providing our customers with the finest electrical contracting 
+Our team of over 65 employees includes knowledgeable and courteous electricians and technicians that are dedicated to providing our customers with the finest electrical contracting
 are dedicated to providing our customers with the finest electrical contracting service  electrical contracting service
 
-Our team of over 65 employees includes knowledgeable and courteous electricians and technicians that are dedicated to providing our customers with the finest electrical contracting 
+Our team of over 65 employees includes knowledgeable and courteous electricians and technicians that are dedicated to providing our customers with the finest electrical contracting
 are dedicated to providing our customers with the finest electrical contracting service  electrical contracting service
 :::::
 ::::: homeserve-features
@@ -22,7 +27,7 @@ are dedicated to providing our customers with the finest electrical contracting 
 
 with a plan from HomeServe
 
-{% image %}
+{% image imgsrc,imgalt %}
 ::::
 :::: feature
 
@@ -30,7 +35,7 @@ with a plan from HomeServe
 
 with a plan from HomeServe
 
-{% image %}
+{% image imgsrc,imgalt %}
 ::::
 :::: feature
 
@@ -38,7 +43,7 @@ with a plan from HomeServe
 
 with a plan from HomeServe
 
-{% image %}
+{% image imgsrc,imgalt %}
 ::::
 :::::
 
@@ -77,11 +82,10 @@ with a plan from HomeServe
 
 #### You Get "Thumps Up Service"
 
-{% serviceinfo %}
+{% serviceinfo  %}
 
 :::
 ::::
-
 
 :::::
 

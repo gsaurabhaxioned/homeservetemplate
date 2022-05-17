@@ -147,6 +147,20 @@ li {
   padding: 2.2% 0;
 }
 
+.breadcrumb-path {
+  background-color: #ff0000;
+}
+
+.crumb {
+  padding: 10px;
+  color: #fff;
+}
+
+.crumb::after {
+  content: ">";
+  margin-left: 10px;
+}
+
 /* main styling starts */
 
 /* banner styling start  */
@@ -234,6 +248,32 @@ li {
 .homeserve-contents {
   margin-top: 90px;
 }
+
+.breadcumb ul {
+  background-color: #ff0000;
+}
+
+.breadcumb ul li {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.breadcumb ul li a {
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.breadcumb ul li a:active {
+  color: #0000ff;
+}
+
+.breadcumb ul li ul a::before {
+  content: "/";
+  margin-right: 20px;
+}
+
 
 .homeserve-contents .wrapper {
   width: 90%;

@@ -2,6 +2,7 @@
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (config) {
     config.addPassthroughCopy("./main.js");
@@ -14,9 +15,11 @@ module.exports = function (config) {
         return `<p>As more and more homes have modernized over the last 30 years, the demand for bigger and better appliances has increased as well. It was not long ago</p>`;
       })
 
-    config.addShortcode('image', function() {
-        return `<img src="http://placehold.jp/329x194.png" alt="Homeserve" class="homeserve-img">`;
+    config.addShortcode('image', function(src,alt) {
+        return `<img src="${src}" alt="${alt}" class="homeserve-img">`;
       })
+
+    config.addPlugin(eleventyNavigationPlugin);
 
     let options = {
         html: true,
@@ -43,7 +46,8 @@ module.exports = function (config) {
     .use(markdownItContainer, "get-instant-quote-lower")
     .use(markdownItContainer, "about-us")
     .use(markdownItContainer, "about-us-left")
-    .use(markdownItContainer, "about-us-right");
+    .use(markdownItContainer, "about-us-right")
+    .use(markdownItContainer, "breadcumb");
 
     config.setLibrary("md", markdownLib);
 
