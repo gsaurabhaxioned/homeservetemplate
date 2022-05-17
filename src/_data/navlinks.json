@@ -1,14 +1,14 @@
 [
     {
-      "title": "Child",
+      "title": "Child 1",
       "href": "/markdown/child/",
-      "name": "Child",
+      "name": "Child 1",
       "target": "_self"
     },
     {
-        "title": "Grandchild",
+        "title": "Child 2",
         "href": "/markdown/child2/",
-        "name": "Grand Child",
+        "name": "Child 2",
         "target": "_self"
     }
 ]
