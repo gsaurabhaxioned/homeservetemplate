@@ -2,6 +2,7 @@
 layout: home/home-layout.njk
 imgsrc: "http://placehold.jp/329x194.png"
 imgalt: "Image"
+titleTag: Home
 eleventyNavigation:
   key: homepage
 ---
@@ -9,6 +10,8 @@ eleventyNavigation:
 ::::::: homeserve-contents
 
 :::::: wrapper
+
+
 
 ::::: the-leader-in-home
 

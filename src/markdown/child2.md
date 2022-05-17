@@ -1,5 +1,6 @@
 ---
 layout: layouts/childlayout.njk
+titleTag: Child2
 eleventyNavigation:
   key: childpage2
   parent: homepage

@@ -38,8 +38,22 @@
   }
   
   .breadcrumb-path {
-    background-color: #ff0000;
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
   }
+
+  .breadcrumb-path ul li a {
+      text-transform: capitalize;
+      color: #4CA7CF;
+  }
+
+  .breadcrumb-path ul li a::after {
+      content: ">";
+      margin-left: 10px;
+  }
+
+
   
   .crumb {
     padding: 10px;
