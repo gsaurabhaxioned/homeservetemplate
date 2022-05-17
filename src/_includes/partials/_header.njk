@@ -10,12 +10,9 @@ Call <a href="tel:1-855-336-2465" title="18553362465" target="_blank" class="tel
           <img src="{{ metadata.logo }}" alt="{{ metadata.sitename }}" loading="lazy" />
         </a>
       </h1>
-      <div class="breadcrumb-path">
-      {% set crumbs = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
-{% for crumb in crumbs %}
-  <a class="crumb" href="{{ crumb.url | url }}">{{ crumb.title }}</a>
-{% endfor %}
-</div>
+      <ul class="menu">
+         {% include "partials/navlinks.njk" %}
+      </ul>
     </div>
   </div>
 </header>

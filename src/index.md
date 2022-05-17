@@ -1,5 +1,5 @@
 ---
-layout: layouts/base-layout.njk
+layout: home/home-layout.njk
 imgsrc: "http://placehold.jp/329x194.png"
 imgalt: "Image"
 eleventyNavigation:

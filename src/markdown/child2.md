@@ -2,7 +2,7 @@
 layout: layouts/childlayout.njk
 eleventyNavigation:
   key: childpage2
-  parent: childpage
+  parent: homepage
 
 ---
 
