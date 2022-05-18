@@ -48,7 +48,7 @@
   .breadcrumb-path {
     display: flex;
     justify-content: space-between;
-    width: 12%;
+    width: 13%;
   }
 
   .breadcrumb-path ul li a {
